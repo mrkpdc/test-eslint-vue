@@ -1,9 +1,14 @@
-# Vue 3 + TypeScript + Vite
+# Vue.js + ESLint + Prettier test app
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+App di test basata su Vue con plugin ESLint e Prettier per la formattazione (vedi il componente TestLint.vue)
+
+- Il linter può essere configurato tramite il file eslint.config.js
+- Prettier può essere configurato tramite la chiave "prettier" all'interno di package.json
+
 
 ## Recommended Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
-
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+- [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- [Install eslint-plugin-vue](https://eslint.vuejs.org/)
+- [Install Prettier](https://prettier.io/docs/en/install)
+- [Install eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation)
